@@ -40,10 +40,14 @@ Dự án này được thiết kế để giúp bạn từ một người mới 
 │   │   │   └── NikeZoomKD12.png
 │   │   └── style.css
 │   └── index.html
-├── Day2/
+├── Day2/ ✅
 │   ├── assets/
-│   ├── index.html
-│   └── README.md
+│   │   ├── icon/
+│   │   │   └── fontawesome-free-6.7.2-web/
+│   │   ├── images/
+│   │   │   └── dyudev_selfie_1.jpg
+│   │   └── style.css
+│   └── index.html
 ├── Day3/
 │   ├── assets/
 │   ├── index.html
@@ -151,7 +155,13 @@ touch assets/js/script.js
   - Responsive design với flexbox
   - Sử dụng CSS variables và Google Fonts
   - Box Icons integration
-- **Day 2**: CSS styling và layout
+- **Day 2**: ✅ **Profile Card với Hover Effects** - Hoàn thành
+  - Tạo profile card với avatar và thông tin cá nhân
+  - CSS hover animations cho avatar và social icons
+  - Responsive design với flexbox layout
+  - Sử dụng CSS variables và Google Fonts
+  - FontAwesome icons integration
+  - Multiple cards layout
 - **Day 3**: Flexbox layout
 - **Day 4**: Grid layout
 - **Day 5**: Responsive design
