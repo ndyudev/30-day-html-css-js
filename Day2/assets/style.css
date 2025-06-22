@@ -1,0 +1,106 @@
+/* Reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #f2726a;
+    --primary-color-dark: #a4552a;
+    --text-color: #ffffff;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    height: 100vh;
+    background: linear-gradient(to right, #00853e, #50c878);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.profile_card {
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+    background-color:#242628;
+    text-align: center;
+    margin: 0px 20px;
+    overflow: hidden;
+}
+
+img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    object-position: center;
+    margin-top: 20px;
+}
+
+.img_avt {
+    width: 120px;
+    height: 120px;
+    border: 4px solid var(--primary-color);
+    border-radius: 50%;
+}
+
+.img_avt:hover {
+    border: none;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+    border-radius: unset;
+    margin-top: 0px;
+}
+
+
+.name {
+    margin-top: 20px;
+    color: var(--text-color);
+}
+
+.job {
+    color: var(--primary-color);
+}
+
+.social_item {
+    padding: 10px 0;
+    color: var(--text-color);
+    margin: 0 10px;
+    font-size: 20px;
+    text-decoration: none;
+    margin-top: 40px;
+}
+
+.social_item:hover {
+    color: var(--primary-color);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.social_list {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.profile_card button {
+    background-color: #242628;
+    border: 1px solid var(--primary-color);
+    outline: none;
+    margin-top: 30px;
+    padding: 10px 25px;
+    border-radius: 10px;
+    color: white;
+}
+
+.profile_card button:hover {
+    cursor: pointer;
+    background-color: var(--primary-color);
+    transition: 0.5s;
+    color: black;
+}
+
+
