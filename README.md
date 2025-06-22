@@ -34,15 +34,12 @@ Dự án này được thiết kế để giúp bạn từ một người mới 
 
 ```
 30-day-html-css-js/
-├── Day1/
+├── Day1/ ✅
 │   ├── assets/
-│   │   ├── images/
-│   │   ├── css/
-│   │   │   └── style.css
-│   │   └── js/
-│   │       └── script.js
-│   ├── index.html
-│   └── README.md
+│   │   ├── image/
+│   │   │   └── NikeZoomKD12.png
+│   │   └── style.css
+│   └── index.html
 ├── Day2/
 │   ├── assets/
 │   ├── index.html
@@ -148,7 +145,12 @@ touch assets/js/script.js
 ## 📚 Lộ trình học tập chi tiết
 
 ### Tuần 1: Nền tảng HTML & CSS
-- **Day 1**: Cấu trúc HTML cơ bản
+- **Day 1**: ✅ **Product Card với Hover Effects** - Hoàn thành
+  - Tạo card sản phẩm Nike Zoom KD12
+  - CSS hover animations và transitions
+  - Responsive design với flexbox
+  - Sử dụng CSS variables và Google Fonts
+  - Box Icons integration
 - **Day 2**: CSS styling và layout
 - **Day 3**: Flexbox layout
 - **Day 4**: Grid layout
