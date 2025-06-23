@@ -39,7 +39,7 @@ Dự án này được thiết kế để giúp bạn từ một người mới 
 │   │   ├── image/
 │   │   │   └── NikeZoomKD12.png
 │   │   └── style.css
-│   └── index.html
+│   └── day1.html
 ├── Day2/ ✅
 │   ├── assets/
 │   │   ├── icon/
@@ -47,11 +47,11 @@ Dự án này được thiết kế để giúp bạn từ một người mới 
 │   │   ├── images/
 │   │   │   └── dyudev_selfie_1.jpg
 │   │   └── style.css
-│   └── index.html
+│   └── day2.html
 ├── Day3/
 │   ├── assets/
-│   ├── index.html
-│   └── README.md
+│   ├── js/
+│   └── day3.html
 ├── ...
 ├── Day30/
 │   ├── assets/
@@ -71,9 +71,10 @@ Dự án này được thiết kế để giúp bạn từ một người mới 
 ### Mô tả thư mục:
 
 - **DayX/**: Mỗi thư mục chứa bài học của một ngày
-  - `index.html`: File HTML chính
+  - `dayX.html`: File HTML chính của ngày X
   - `assets/`: Tài nguyên (CSS, JS, hình ảnh)
-  - `README.md`: Hướng dẫn chi tiết cho ngày đó
+  - `js/`: Thư mục chứa file JavaScript (nếu có)
+  - `README.md`: Hướng dẫn chi tiết cho ngày đó (nếu có)
 
 - **resources/**: Tài liệu tham khảo và công cụ hỗ trợ
 - **projects/**: Các dự án tổng hợp sau khi hoàn thành
@@ -123,7 +124,7 @@ mkdir assets
 mkdir assets/css
 mkdir assets/js
 mkdir assets/images
-touch index.html
+touch day1.html
 touch assets/css/style.css
 touch assets/js/script.js
 ```
@@ -150,46 +151,53 @@ touch assets/js/script.js
 
 ### Tuần 1: Nền tảng HTML & CSS
 - **Day 1**: ✅ **Product Card với Hover Effects** - Hoàn thành
+  - File: `Day1/day1.html`
   - Tạo card sản phẩm Nike Zoom KD12
   - CSS hover animations và transitions
   - Responsive design với flexbox
   - Sử dụng CSS variables và Google Fonts
   - Box Icons integration
 - **Day 2**: ✅ **Profile Card với Hover Effects** - Hoàn thành
+  - File: `Day2/day2.html`
   - Tạo profile card với avatar và thông tin cá nhân
   - CSS hover animations cho avatar và social icons
   - Responsive design với flexbox layout
   - Sử dụng CSS variables và Google Fonts
   - FontAwesome icons integration
   - Multiple cards layout
-- **Day 3**: Flexbox layout
-- **Day 4**: Grid layout
-- **Day 5**: Responsive design
-- **Day 6**: CSS animations
-- **Day 7**: Project tổng hợp tuần 1
+- **Day 3**: ✅ **Modal Popup Material** - Hoàn thành
+  - File: `Day3/day3.html`
+  - Modal popup với hiệu ứng mở/đóng
+  - Xử lý sự kiện với JavaScript
+  - Responsive design
+- **Day 4**: Flexbox layout
+- **Day 5**: Grid layout
+- **Day 6**: Responsive design
+- **Day 7**: CSS animations
+- **Day 8**: Project tổng hợp tuần 1
 
 ### Tuần 2: JavaScript cơ bản
-- **Day 8**: JavaScript syntax cơ bản
-- **Day 9**: Variables và data types
-- **Day 10**: Functions và scope
-- **Day 11**: Arrays và objects
-- **Day 12**: DOM manipulation
-- **Day 13**: Event handling
-- **Day 14**: Project tổng hợp tuần 2
+- **Day 9**: JavaScript syntax cơ bản
+- **Day 10**: Variables và data types
+- **Day 11**: Functions và scope
+- **Day 12**: Arrays và objects
+- **Day 13**: DOM manipulation
+- **Day 14**: Event handling
+- **Day 15**: Project tổng hợp tuần 2
 
 ### Tuần 3: JavaScript nâng cao
-- **Day 15**: ES6+ features
-- **Day 16**: Async JavaScript
-- **Day 17**: Local Storage
-- **Day 18**: API calls
-- **Day 19**: Error handling
-- **Day 20**: Modern JavaScript patterns
-- **Day 21**: Project tổng hợp tuần 3
+- **Day 16**: ES6+ features
+- **Day 17**: Async JavaScript
+- **Day 18**: Local Storage
+- **Day 19**: API calls
+- **Day 20**: Error handling
+- **Day 21**: Modern JavaScript patterns
+- **Day 22**: Project tổng hợp tuần 3
 
 ### Tuần 4: Dự án thực tế
-- **Day 22-24**: Portfolio website
-- **Day 25-27**: E-commerce landing page
-- **Day 28-30**: Blog website
+- **Day 23-25**: Portfolio website
+- **Day 26-28**: E-commerce landing page
+- **Day 29-30**: Blog website
 
 ## 🎨 Các dự án sẽ xây dựng
 
