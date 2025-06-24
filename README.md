@@ -52,6 +52,14 @@ Dự án này được thiết kế để giúp bạn từ một người mới 
 │   ├── assets/
 │   ├── js/
 │   └── day3.html
+├── Day4/
+│   ├── assets/
+│   │   ├── style.css
+│   │   └── image/
+│   │       └── 1.jpeg, 2.jpeg, ...
+│   ├── js/
+│   │   └── main.js
+│   └── day4.html
 ├── ...
 ├── Day30/
 │   ├── assets/
@@ -170,7 +178,17 @@ touch assets/js/script.js
   - Modal popup với hiệu ứng mở/đóng
   - Xử lý sự kiện với JavaScript
   - Responsive design
-- **Day 4**: Flexbox layout
+- **Day 4**: ✅ **Image Gallery với Flexbox** - Hoàn thành
+  - File: `Day4/day4.html`
+  - Xây dựng gallery ảnh sử dụng Flexbox
+  - Click vào ảnh để mở gallery lớn
+  - Chuyển ảnh qua lại bằng nút Prev/Next
+  - Đóng gallery bằng nút Close
+  - Sử dụng HTML, CSS, JavaScript thuần
+  - FontAwesome cho icon
+  - Hướng dẫn sử dụng:
+    1. Mở file `Day4/day4.html` bằng trình duyệt
+    2. Click vào ảnh để xem ảnh lớn, chuyển ảnh bằng Prev/Next, đóng bằng Close
 - **Day 5**: Grid layout
 - **Day 6**: Responsive design
 - **Day 7**: CSS animations
