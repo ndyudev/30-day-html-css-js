@@ -1,0 +1,96 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    background-color: #dadada;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.wrapper {
+    width: 1200px;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+
+.image {
+    width: 22%;
+    height: 200px;
+    border-radius: 4px;
+    overflow: hidden;
+    margin: 20px 0;
+    cursor: pointer;
+}
+
+.image:hover img {
+    transform: scale(1.2);
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: 0.25s;
+}
+
+.gallery {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    color: white;
+    opacity: 0;
+    pointer-events: none;
+    transform: scale(0.8);
+    transition: 0.5s;
+}
+
+.close {
+    position: fixed;
+    top: 15px;
+    right: 25px;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.control {
+    font-size: 35px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.control .prev {
+    position: absolute;
+    left: 15px;
+    cursor: pointer;
+}
+
+.control .next {
+    position: absolute;
+    right: 15px;
+    cursor: pointer;
+}
+
+.gallery-inner {
+    width: 70%;
+    height: 70%;
+    margin: auto;
+}
+
+.show {
+    opacity: 1;
+    pointer-events: auto;
+    transform: scale(1);
+}
