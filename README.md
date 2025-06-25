@@ -1,111 +1,238 @@
 # 🚀 30 Ngày Học HTML, CSS & JavaScript
 
+<div align="center">
+
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+
+**Dự án học tập theo series video tutorial từ kênh Nodemy**
+
+[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=gVx72yLou2c&list=PLodO7Gi1F7R0zA8RkRHcDgnPduNBmjkb5&ab_channel=Nodemy)
+[![Nodemy](https://img.shields.io/badge/Nodemy-000000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@nodemy)
+
+</div>
+
+---
+
 ## 📖 Giới thiệu
 
-Đây là dự án học tập theo series video tutorial **"30 Ngày Học HTML, CSS & JavaScript"** từ kênh [Nodemy](https://www.youtube.com/watch?v=gVx72yLou2c&list=PLodO7Gi1F7R0zA8RkRHcDgnPduNBmjkb5&ab_channel=Nodemy).
+Đây là dự án học tập theo series video tutorial **"30 Ngày Học HTML, CSS & JavaScript"** từ kênh [Nodemy](https://www.youtube.com/@nodemy).
 
-Dự án này được thiết kế để giúp bạn từ một người mới bắt đầu trở thành một web developer có khả năng xây dựng các trang web hoàn chỉnh chỉ trong 30 ngày. Mỗi ngày sẽ có một bài học mới với các kỹ năng và dự án thực tế.
+Dự án này được thiết kế để giúp bạn từ một người mới bắt đầu trở thành một **Frontend Developer** có khả năng xây dựng các trang web hoàn chỉnh chỉ trong 30 ngày. Mỗi ngày sẽ có một bài học mới với các kỹ năng và dự án thực tế.
 
-## 🎯 Mục tiêu học tập
+### 🎯 Mục tiêu dự án
+- ✅ Học HTML, CSS, JavaScript từ cơ bản đến nâng cao
+- ✅ Thực hành xây dựng 30+ mini projects
+- ✅ Tạo portfolio cá nhân với các dự án thực tế
+- ✅ Phát triển kỹ năng responsive design
+- ✅ Làm quen với modern web development tools
 
-### Kỹ năng HTML
-- ✅ Hiểu cấu trúc cơ bản của HTML
-- ✅ Sử dụng các thẻ HTML5 semantic
-- ✅ Tạo form và xử lý input
-- ✅ Tích hợp media (hình ảnh, video, audio)
-- ✅ Tối ưu hóa SEO cơ bản
+---
 
-### Kỹ năng CSS
-- ✅ Layout với Flexbox và Grid
-- ✅ Responsive design
-- ✅ CSS animations và transitions
-- ✅ CSS variables và custom properties
-- ✅ Preprocessors (Sass/SCSS) cơ bản
+## 📊 Tiến độ học tập
 
-### Kỹ năng JavaScript
-- ✅ ES6+ syntax và features
-- ✅ DOM manipulation
-- ✅ Event handling
-- ✅ Async programming (Promises, async/await)
-- ✅ Local Storage và Session Storage
-- ✅ API calls với Fetch
+<div align="center">
 
-## 📁 Cấu trúc dự án chi tiết
+| Tuần | Ngày | Trạng thái | Project |
+|------|------|------------|---------|
+| **Tuần 1** | Day 1-5 | ✅ **Hoàn thành** | 5/5 projects |
+| **Tuần 2** | Day 6-10 | 🔄 **Đang học** | 0/5 projects |
+| **Tuần 3** | Day 11-15 | ⏳ **Chưa bắt đầu** | 0/5 projects |
+| **Tuần 4** | Day 16-20 | ⏳ **Chưa bắt đầu** | 0/5 projects |
+| **Tuần 5** | Day 21-25 | ⏳ **Chưa bắt đầu** | 0/5 projects |
+| **Tuần 6** | Day 26-30 | ⏳ **Chưa bắt đầu** | 0/5 projects |
+
+**Tổng tiến độ: 5/30 (16.7%)**
+
+</div>
+
+---
+
+## 📁 Cấu trúc dự án
 
 ```
 30-day-html-css-js/
-├── Day1/ ✅
-│   ├── assets/
-│   │   ├── image/
+├── 📁 Day1/ ✅
+│   ├── 📁 assets/
+│   │   ├── 📁 image/
 │   │   │   └── NikeZoomKD12.png
 │   │   └── style.css
 │   └── day1.html
-├── Day2/ ✅
-│   ├── assets/
-│   │   ├── icon/
+├── 📁 Day2/ ✅
+│   ├── 📁 assets/
+│   │   ├── 📁 icon/
 │   │   │   └── fontawesome-free-6.7.2-web/
-│   │   ├── images/
+│   │   ├── 📁 images/
 │   │   │   └── dyudev_selfie_1.jpg
 │   │   └── style.css
 │   └── day2.html
-├── Day3/
-│   ├── assets/
-│   ├── js/
+├── 📁 Day3/ ✅
+│   ├── 📁 assets/
+│   ├── 📁 js/
 │   └── day3.html
-├── Day4/
-│   ├── assets/
+├── 📁 Day4/ ✅
+│   ├── 📁 assets/
 │   │   ├── style.css
-│   │   └── image/
+│   │   └── 📁 image/
 │   │       └── 1.jpeg, 2.jpeg, ...
-│   ├── js/
+│   ├── 📁 js/
 │   │   └── main.js
 │   └── day4.html
+├── 📁 Day5/ ✅
+│   ├── 📁 assets/
+│   │   └── 📁 css/
+│   │       └── style.css
+│   ├── 📁 js/
+│   │   └── main.js
+│   └── day5.html
+├── 📁 Day6/ 🔄
+├── 📁 Day7/ ⏳
 ├── ...
-├── Day30/
-│   ├── assets/
-│   ├── index.html
-│   └── README.md
-├── resources/
-│   ├── cheatsheets/
-│   ├── templates/
-│   └── tools/
-├── projects/
-│   ├── portfolio/
-│   ├── e-commerce/
-│   └── blog/
+├── 📁 Day30/ ⏳
+├── 📁 resources/
+│   ├── 📁 cheatsheets/
+│   ├── 📁 templates/
+│   └── 📁 tools/
+├── 📁 projects/
+│   ├── 📁 portfolio/
+│   ├── 📁 e-commerce/
+│   └── 📁 blog/
 └── README.md
 ```
 
-### Mô tả thư mục:
+### 📋 Mô tả thư mục:
 
-- **DayX/**: Mỗi thư mục chứa bài học của một ngày
+- **📁 DayX/**: Mỗi thư mục chứa bài học của một ngày
   - `dayX.html`: File HTML chính của ngày X
-  - `assets/`: Tài nguyên (CSS, JS, hình ảnh)
-  - `js/`: Thư mục chứa file JavaScript (nếu có)
+  - `📁 assets/`: Tài nguyên (CSS, JS, hình ảnh, icons)
+  - `📁 js/`: Thư mục chứa file JavaScript (nếu có)
   - `README.md`: Hướng dẫn chi tiết cho ngày đó (nếu có)
 
-- **resources/**: Tài liệu tham khảo và công cụ hỗ trợ
-- **projects/**: Các dự án tổng hợp sau khi hoàn thành
+- **📁 resources/**: Tài liệu tham khảo và công cụ hỗ trợ
+- **📁 projects/**: Các dự án tổng hợp sau khi hoàn thành
+
+---
 
 ## 🛠️ Công nghệ và công cụ
 
-### Frontend Technologies
-- **HTML5**: Cấu trúc và semantic markup
-- **CSS3**: Styling, layout và animations
-- **JavaScript (ES6+)**: Logic và tương tác
-- **Sass/SCSS**: CSS preprocessor
+### 🎨 Frontend Technologies
+| Technology | Version | Mục đích |
+|------------|---------|----------|
+| ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white) | HTML5 | Cấu trúc và semantic markup |
+| ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white) | CSS3 | Styling, layout và animations |
+| ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) | ES6+ | Logic và tương tác |
+| ![Sass](https://img.shields.io/badge/Sass-CC6699?style=flat&logo=sass&logoColor=white) | SCSS | CSS preprocessor |
 
-### Development Tools
-- **VS Code**: Code editor chính
-- **Live Server**: Development server
-- **Git & GitHub**: Version control
-- **Chrome DevTools**: Debugging
+### 🛠️ Development Tools
+| Tool | Mục đích |
+|------|----------|
+| ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat&logo=visual-studio-code&logoColor=white) | Code editor chính |
+| ![Live Server](https://img.shields.io/badge/Live_Server-FF0000?style=flat&logo=visual-studio-code&logoColor=white) | Development server |
+| ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white) | Version control |
+| ![Chrome DevTools](https://img.shields.io/badge/Chrome_DevTools-4285F4?style=flat&logo=google-chrome&logoColor=white) | Debugging |
 
-### Libraries & Frameworks (tùy chọn)
-- **Bootstrap**: CSS framework
-- **Font Awesome**: Icon library
-- **Google Fonts**: Typography
-- **AOS**: Scroll animations
+### 📚 Libraries & Frameworks
+| Library | Mục đích |
+|---------|----------|
+| ![Font Awesome](https://img.shields.io/badge/Font_Awesome-339AF0?style=flat&logo=font-awesome&logoColor=white) | Icon library |
+| ![Google Fonts](https://img.shields.io/badge/Google_Fonts-4285F4?style=flat&logo=google&logoColor=white) | Typography |
+| ![Box Icons](https://img.shields.io/badge/Box_Icons-000000?style=flat&logo=box&logoColor=white) | Icon library |
+
+---
+
+## 📚 Lộ trình học tập chi tiết
+
+### 🗓️ Tuần 1: Nền tảng HTML & CSS
+| Ngày | Project | Trạng thái | Mô tả |
+|------|---------|------------|-------|
+| **Day 1** | ✅ **Product Card** | Hoàn thành | Card sản phẩm Nike với hover effects |
+| **Day 2** | ✅ **Profile Card** | Hoàn thành | Profile card với social icons |
+| **Day 3** | ✅ **Modal Popup** | Hoàn thành | Modal popup với JavaScript |
+| **Day 4** | ✅ **Image Gallery** | Hoàn thành | Gallery ảnh với navigation |
+| **Day 5** | ✅ **Search Box** | Hoàn thành | Search box với animation |
+
+### 🗓️ Tuần 2: JavaScript cơ bản
+| Ngày | Project | Trạng thái | Mô tả |
+|------|---------|------------|-------|
+| **Day 6** | 🔄 **Responsive Design** | Đang học | Website responsive |
+| **Day 7** | ⏳ **CSS Animations** | Chưa bắt đầu | Advanced CSS animations |
+| **Day 8** | ⏳ **Project Tổng hợp** | Chưa bắt đầu | Mini website hoàn chỉnh |
+| **Day 9** | ⏳ **JavaScript Basics** | Chưa bắt đầu | Variables, functions |
+| **Day 10** | ⏳ **DOM Manipulation** | Chưa bắt đầu | Thao tác với DOM |
+
+### 🗓️ Tuần 3: JavaScript nâng cao
+| Ngày | Project | Trạng thái | Mô tả |
+|------|---------|------------|-------|
+| **Day 11** | ⏳ **ES6+ Features** | Chưa bắt đầu | Arrow functions, destructuring |
+| **Day 12** | ⏳ **Async JavaScript** | Chưa bắt đầu | Promises, async/await |
+| **Day 13** | ⏳ **Local Storage** | Chưa bắt đầu | Data persistence |
+| **Day 14** | ⏳ **API Calls** | Chưa bắt đầu | Fetch API |
+| **Day 15** | ⏳ **Project Tổng hợp** | Chưa bắt đầu | Web app với API |
+
+### 🗓️ Tuần 4-6: Dự án thực tế
+| Tuần | Project | Trạng thái | Mô tả |
+|------|---------|------------|-------|
+| **Tuần 4** | ⏳ **Portfolio Website** | Chưa bắt đầu | Personal portfolio |
+| **Tuần 5** | ⏳ **E-commerce Landing** | Chưa bắt đầu | Product landing page |
+| **Tuần 6** | ⏳ **Blog Website** | Chưa bắt đầu | Blog với admin panel |
+
+---
+
+## 🎨 Chi tiết các dự án đã hoàn thành
+
+### ✅ Day 1: Product Card với Hover Effects
+- **File**: `Day1/day1.html`
+- **Tính năng**:
+  - Card sản phẩm Nike Zoom KD12
+  - CSS hover animations và transitions
+  - Responsive design với flexbox
+  - CSS variables và Google Fonts
+  - Box Icons integration
+- **Kỹ năng học được**: HTML structure, CSS flexbox, hover effects, responsive design
+
+### ✅ Day 2: Profile Card với Hover Effects
+- **File**: `Day2/day2.html`
+- **Tính năng**:
+  - Profile card với avatar và thông tin cá nhân
+  - CSS hover animations cho avatar và social icons
+  - Responsive design với flexbox layout
+  - CSS variables và Google Fonts
+  - FontAwesome icons integration
+  - Multiple cards layout
+- **Kỹ năng học được**: CSS positioning, multiple layouts, icon integration
+
+### ✅ Day 3: Modal Popup Material
+- **File**: `Day3/day3.html`
+- **Tính năng**:
+  - Modal popup với hiệu ứng mở/đóng
+  - Xử lý sự kiện với JavaScript
+  - Responsive design
+- **Kỹ năng học được**: JavaScript DOM manipulation, event handling
+
+### ✅ Day 4: Image Gallery với Flexbox
+- **File**: `Day4/day4.html`
+- **Tính năng**:
+  - Gallery ảnh sử dụng Flexbox
+  - Click vào ảnh để mở gallery lớn
+  - Chuyển ảnh qua lại bằng nút Prev/Next
+  - Đóng gallery bằng nút Close
+  - FontAwesome cho icon
+- **Kỹ năng học được**: JavaScript navigation, image handling, modal functionality
+
+### ✅ Day 5: Search Box với Animation
+- **File**: `Day5/day5.html`
+- **Tính năng**:
+  - Search box với animation từ tròn sang chữ nhật
+  - Background gradient (#25d6b3 to #27d76e)
+  - Auto focus vào input khi mở
+  - Click outside hoặc nhấn Escape để đóng
+  - Hover effects cho button với scale animation
+- **Kỹ năng học được**: Advanced CSS animations, JavaScript event handling, UX design
+
+---
 
 ## 🚀 Hướng dẫn bắt đầu
 
@@ -144,7 +271,7 @@ touch assets/js/script.js
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Day 1 - Tên dự án</title>
+    <title>Day X - Tên dự án</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
@@ -155,199 +282,197 @@ touch assets/js/script.js
 </html>
 ```
 
-## 📚 Lộ trình học tập chi tiết
-
-### Tuần 1: Nền tảng HTML & CSS
-- **Day 1**: ✅ **Product Card với Hover Effects** - Hoàn thành
-  - File: `Day1/day1.html`
-  - Tạo card sản phẩm Nike Zoom KD12
-  - CSS hover animations và transitions
-  - Responsive design với flexbox
-  - Sử dụng CSS variables và Google Fonts
-  - Box Icons integration
-- **Day 2**: ✅ **Profile Card với Hover Effects** - Hoàn thành
-  - File: `Day2/day2.html`
-  - Tạo profile card với avatar và thông tin cá nhân
-  - CSS hover animations cho avatar và social icons
-  - Responsive design với flexbox layout
-  - Sử dụng CSS variables và Google Fonts
-  - FontAwesome icons integration
-  - Multiple cards layout
-- **Day 3**: ✅ **Modal Popup Material** - Hoàn thành
-  - File: `Day3/day3.html`
-  - Modal popup với hiệu ứng mở/đóng
-  - Xử lý sự kiện với JavaScript
-  - Responsive design
-- **Day 4**: ✅ **Image Gallery với Flexbox** - Hoàn thành
-  - File: `Day4/day4.html`
-  - Xây dựng gallery ảnh sử dụng Flexbox
-  - Click vào ảnh để mở gallery lớn
-  - Chuyển ảnh qua lại bằng nút Prev/Next
-  - Đóng gallery bằng nút Close
-  - Sử dụng HTML, CSS, JavaScript thuần
-  - FontAwesome cho icon
-  - Hướng dẫn sử dụng:
-    1. Mở file `Day4/day4.html` bằng trình duyệt
-    2. Click vào ảnh để xem ảnh lớn, chuyển ảnh bằng Prev/Next, đóng bằng Close
-- **Day 5**: Grid layout
-- **Day 6**: Responsive design
-- **Day 7**: CSS animations
-- **Day 8**: Project tổng hợp tuần 1
-
-### Tuần 2: JavaScript cơ bản
-- **Day 9**: JavaScript syntax cơ bản
-- **Day 10**: Variables và data types
-- **Day 11**: Functions và scope
-- **Day 12**: Arrays và objects
-- **Day 13**: DOM manipulation
-- **Day 14**: Event handling
-- **Day 15**: Project tổng hợp tuần 2
-
-### Tuần 3: JavaScript nâng cao
-- **Day 16**: ES6+ features
-- **Day 17**: Async JavaScript
-- **Day 18**: Local Storage
-- **Day 19**: API calls
-- **Day 20**: Error handling
-- **Day 21**: Modern JavaScript patterns
-- **Day 22**: Project tổng hợp tuần 3
-
-### Tuần 4: Dự án thực tế
-- **Day 23-25**: Portfolio website
-- **Day 26-28**: E-commerce landing page
-- **Day 29-30**: Blog website
+---
 
 ## 🎨 Các dự án sẽ xây dựng
 
-### 1. Portfolio Website
-- Responsive design
-- Smooth scrolling
-- Contact form
-- Project showcase
-- Dark/Light theme toggle
+### 🏠 1. Portfolio Website
+- **Tính năng**:
+  - Responsive design
+  - Smooth scrolling navigation
+  - Contact form với validation
+  - Project showcase gallery
+  - Dark/Light theme toggle
+  - Animated sections
+- **Kỹ năng**: Advanced CSS, JavaScript animations, Form handling
 
-### 2. E-commerce Landing Page
-- Hero section với CTA
-- Product showcase
-- Testimonials
-- Newsletter signup
-- Mobile-first design
+### 🛒 2. E-commerce Landing Page
+- **Tính năng**:
+  - Hero section với call-to-action
+  - Product showcase với carousel
+  - Customer testimonials
+  - Newsletter signup
+  - Mobile-first design
+  - Shopping cart preview
+- **Kỹ năng**: CSS Grid, JavaScript carousel, Local storage
 
-### 3. Blog Website
-- Article layout
-- Search functionality
-- Categories và tags
-- Comment system
-- Admin panel cơ bản
+### 📝 3. Blog Website
+- **Tính năng**:
+  - Article layout với typography
+  - Search functionality
+  - Categories và tags system
+  - Comment system
+  - Admin panel cơ bản
+  - RSS feed
+- **Kỹ năng**: API integration, Database concepts, User authentication
+
+---
 
 ## 📖 Tài liệu tham khảo
 
-### HTML
-- [MDN HTML Guide](https://developer.mozilla.org/en-US/docs/Learn/HTML)
-- [W3Schools HTML Tutorial](https://www.w3schools.com/html/)
-- [HTML5 Semantic Elements](https://www.w3schools.com/html/html5_semantic_elements.asp)
+### 📚 HTML Resources
+| Resource | Link | Mô tả |
+|----------|------|-------|
+| ![MDN](https://img.shields.io/badge/MDN-000000?style=flat&logo=mdn-web-docs&logoColor=white) | [MDN HTML Guide](https://developer.mozilla.org/en-US/docs/Learn/HTML) | Tài liệu chính thức Mozilla |
+| ![W3Schools](https://img.shields.io/badge/W3Schools-04AA6D?style=flat&logo=w3schools&logoColor=white) | [W3Schools HTML](https://www.w3schools.com/html/) | Tutorial tương tác |
+| ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white) | [HTML5 Semantic](https://www.w3schools.com/html/html5_semantic_elements.asp) | Semantic elements |
 
-### CSS
-- [MDN CSS Guide](https://developer.mozilla.org/en-US/docs/Learn/CSS)
-- [CSS-Tricks](https://css-tricks.com/)
-- [Flexbox Guide](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
-- [Grid Guide](https://css-tricks.com/snippets/css/complete-guide-grid/)
+### 🎨 CSS Resources
+| Resource | Link | Mô tả |
+|----------|------|-------|
+| ![MDN](https://img.shields.io/badge/MDN-000000?style=flat&logo=mdn-web-docs&logoColor=white) | [MDN CSS Guide](https://developer.mozilla.org/en-US/docs/Learn/CSS) | CSS fundamentals |
+| ![CSS-Tricks](https://img.shields.io/badge/CSS_Tricks-FF6B6B?style=flat&logo=css-tricks&logoColor=white) | [CSS-Tricks](https://css-tricks.com/) | Tips và tricks |
+| ![Flexbox](https://img.shields.io/badge/Flexbox-1572B6?style=flat&logo=css3&logoColor=white) | [Flexbox Guide](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) | Complete flexbox guide |
+| ![Grid](https://img.shields.io/badge/Grid-1572B6?style=flat&logo=css3&logoColor=white) | [Grid Guide](https://css-tricks.com/snippets/css/complete-guide-grid/) | Complete grid guide |
 
-### JavaScript
-- [MDN JavaScript Guide](https://developer.mozilla.org/en-US/docs/Learn/JavaScript)
-- [Eloquent JavaScript](https://eloquentjavascript.net/)
-- [You Don't Know JS](https://github.com/getify/You-Dont-Know-JS)
-- [JavaScript.info](https://javascript.info/)
+### ⚡ JavaScript Resources
+| Resource | Link | Mô tả |
+|----------|------|-------|
+| ![MDN](https://img.shields.io/badge/MDN-000000?style=flat&logo=mdn-web-docs&logoColor=white) | [MDN JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript) | JavaScript fundamentals |
+| ![Eloquent JS](https://img.shields.io/badge/Eloquent_JS-F7DF1E?style=flat&logo=javascript&logoColor=black) | [Eloquent JavaScript](https://eloquentjavascript.net/) | Free online book |
+| ![You Don't Know JS](https://img.shields.io/badge/YDKJS-F7DF1E?style=flat&logo=javascript&logoColor=black) | [You Don't Know JS](https://github.com/getify/You-Dont-Know-JS) | Advanced concepts |
+| ![JavaScript.info](https://img.shields.io/badge/JS.info-F7DF1E?style=flat&logo=javascript&logoColor=black) | [JavaScript.info](https://javascript.info/) | Modern JavaScript |
+
+---
 
 ## 🛠️ Công cụ và tài nguyên hữu ích
 
-### Code Editors
-- **VS Code**: [Download](https://code.visualstudio.com/)
-- **Sublime Text**: [Download](https://www.sublimetext.com/)
-- **Atom**: [Download](https://atom.io/)
+### 💻 Code Editors
+| Editor | Download | Mô tả |
+|--------|----------|-------|
+| ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat&logo=visual-studio-code&logoColor=white) | [Download](https://code.visualstudio.com/) | Editor chính, nhiều extensions |
+| ![Sublime Text](https://img.shields.io/badge/Sublime_Text-FF9800?style=flat&logo=sublime-text&logoColor=white) | [Download](https://www.sublimetext.com/) | Fast và lightweight |
+| ![Atom](https://img.shields.io/badge/Atom-66595C?style=flat&logo=atom&logoColor=white) | [Download](https://atom.io/) | GitHub's editor |
 
-### Browser DevTools
-- **Chrome DevTools**: F12 hoặc Ctrl+Shift+I
-- **Firefox Developer Tools**: F12
-- **Safari Web Inspector**: Develop > Show Web Inspector
+### 🔧 Browser DevTools
+| Browser | Shortcut | Mô tả |
+|---------|----------|-------|
+| ![Chrome](https://img.shields.io/badge/Chrome-4285F4?style=flat&logo=google-chrome&logoColor=white) | `F12` hoặc `Ctrl+Shift+I` | Most popular |
+| ![Firefox](https://img.shields.io/badge/Firefox-FF7139?style=flat&logo=firefox-browser&logoColor=white) | `F12` | Developer friendly |
+| ![Safari](https://img.shields.io/badge/Safari-000000?style=flat&logo=safari&logoColor=white) | `Develop > Show Web Inspector` | Mac only |
 
-### Online Tools
-- **CodePen**: [codepen.io](https://codepen.io/)
-- **JSFiddle**: [jsfiddle.net](https://jsfiddle.net/)
-- **GitHub Gist**: [gist.github.com](https://gist.github.com/)
+### 🌐 Online Tools
+| Tool | Link | Mô tả |
+|------|------|-------|
+| ![CodePen](https://img.shields.io/badge/CodePen-000000?style=flat&logo=codepen&logoColor=white) | [CodePen](https://codepen.io/) | Code playground |
+| ![JSFiddle](https://img.shields.io/badge/JSFiddle-0084FF?style=flat&logo=jsfiddle&logoColor=white) | [JSFiddle](https://jsfiddle.net/) | JavaScript testing |
+| ![GitHub Gist](https://img.shields.io/badge/Gist-181717?style=flat&logo=github&logoColor=white) | [GitHub Gist](https://gist.github.com/) | Code sharing |
 
-### Design Resources
-- **Unsplash**: [unsplash.com](https://unsplash.com/) - Hình ảnh miễn phí
-- **Pexels**: [pexels.com](https://pexels.com/) - Hình ảnh miễn phí
-- **Font Awesome**: [fontawesome.com](https://fontawesome.com/) - Icons
-- **Google Fonts**: [fonts.google.com](https://fonts.google.com/) - Typography
+### 🎨 Design Resources
+| Resource | Link | Mô tả |
+|----------|------|-------|
+| ![Unsplash](https://img.shields.io/badge/Unsplash-000000?style=flat&logo=unsplash&logoColor=white) | [Unsplash](https://unsplash.com/) | Hình ảnh miễn phí |
+| ![Pexels](https://img.shields.io/badge/Pexels-05A081?style=flat&logo=pexels&logoColor=white) | [Pexels](https://pexels.com/) | Stock photos |
+| ![Font Awesome](https://img.shields.io/badge/Font_Awesome-339AF0?style=flat&logo=font-awesome&logoColor=white) | [Font Awesome](https://fontawesome.com/) | Icon library |
+| ![Google Fonts](https://img.shields.io/badge/Google_Fonts-4285F4?style=flat&logo=google&logoColor=white) | [Google Fonts](https://fonts.google.com/) | Typography |
+
+---
 
 ## 📝 Tips học tập hiệu quả
 
-### 1. Thực hành hàng ngày
-- Dành ít nhất 1-2 giờ mỗi ngày
-- Code theo video và tự sửa đổi
-- Tạo thêm các tính năng mới
+### 🎯 1. Thực hành hàng ngày
+- **Thời gian**: Dành ít nhất 1-2 giờ mỗi ngày
+- **Phương pháp**: Code theo video và tự sửa đổi
+- **Cải tiến**: Tạo thêm các tính năng mới
 
-### 2. Ghi chép và tài liệu
-- Viết notes cho mỗi bài học
-- Tạo cheatsheet cá nhân
-- Comment code để hiểu rõ
+### 📝 2. Ghi chép và tài liệu
+- **Notes**: Viết notes cho mỗi bài học
+- **Cheatsheet**: Tạo cheatsheet cá nhân
+- **Comments**: Comment code để hiểu rõ
 
-### 3. Debugging và troubleshooting
-- Sử dụng console.log() thường xuyên
-- Kiểm tra DevTools
-- Tìm hiểu error messages
+### 🐛 3. Debugging và troubleshooting
+- **Console**: Sử dụng `console.log()` thường xuyên
+- **DevTools**: Kiểm tra Chrome DevTools
+- **Errors**: Tìm hiểu error messages
 
-### 4. Tối ưu hóa code
-- Viết code clean và readable
-- Sử dụng meaningful names
-- Refactor code thường xuyên
+### ✨ 4. Tối ưu hóa code
+- **Clean code**: Viết code clean và readable
+- **Naming**: Sử dụng meaningful names
+- **Refactor**: Refactor code thường xuyên
+
+---
 
 ## 🤝 Cộng đồng và hỗ trợ
 
-### Kênh YouTube
-- **Nodemy**: [YouTube Channel](https://www.youtube.com/@nodemy)
-- **F8 Official**: [YouTube Channel](https://www.youtube.com/@F8VNOfficial)
-- **Thạch Phạm**: [YouTube Channel](https://www.youtube.com/@thachpham)
+### 📺 Kênh YouTube
+| Channel | Link | Nội dung |
+|---------|------|----------|
+| ![Nodemy](https://img.shields.io/badge/Nodemy-FF0000?style=flat&logo=youtube&logoColor=white) | [Nodemy](https://www.youtube.com/@nodemy) | 30-day tutorial series |
+| ![F8 Official](https://img.shields.io/badge/F8_Official-FF0000?style=flat&logo=youtube&logoColor=white) | [F8 Official](https://www.youtube.com/@F8VNOfficial) | Web development tutorials |
+| ![Thạch Phạm](https://img.shields.io/badge/Thạch_Phạm-FF0000?style=flat&logo=youtube&logoColor=white) | [Thạch Phạm](https://www.youtube.com/@thachpham) | WordPress và web development |
 
-### Diễn đàn và cộng đồng
-- **Stack Overflow**: [stackoverflow.com](https://stackoverflow.com/)
-- **Reddit r/webdev**: [reddit.com/r/webdev](https://reddit.com/r/webdev)
-- **Facebook Groups**: Các group học lập trình Việt Nam
+### 💬 Diễn đàn và cộng đồng
+| Platform | Link | Mô tả |
+|----------|------|-------|
+| ![Stack Overflow](https://img.shields.io/badge/Stack_Overflow-FE7A16?style=flat&logo=stack-overflow&logoColor=white) | [Stack Overflow](https://stackoverflow.com/) | Q&A platform |
+| ![Reddit](https://img.shields.io/badge/Reddit-FF4500?style=flat&logo=reddit&logoColor=white) | [r/webdev](https://reddit.com/r/webdev) | Web development community |
+| ![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=flat&logo=facebook&logoColor=white) | Facebook Groups | Các group học lập trình Việt Nam |
 
-### Discord Servers
-- **Web Dev Community**: Tìm kiếm trên Discord
-- **CodePen Community**: [discord.gg/codepen](https://discord.gg/codepen)
+### 🎮 Discord Servers
+| Server | Link | Mô tả |
+|--------|------|-------|
+| ![Discord](https://img.shields.io/badge/Discord-5865F2?style=flat&logo=discord&logoColor=white) | Web Dev Community | Tìm kiếm trên Discord |
+| ![CodePen](https://img.shields.io/badge/CodePen-000000?style=flat&logo=codepen&logoColor=white) | [CodePen Community](https://discord.gg/codepen) | CodePen official server |
+
+---
 
 ## 📊 Theo dõi tiến độ
 
-### Checklist hàng ngày
+### ✅ Checklist hàng ngày
 - [ ] Xem video tutorial
 - [ ] Code theo hướng dẫn
 - [ ] Tự sửa đổi và cải tiến
 - [ ] Commit code lên Git
 - [ ] Chia sẻ kết quả
 
-### Đánh giá cuối tuần
+### 📈 Đánh giá cuối tuần
 - [ ] Review lại kiến thức
 - [ ] Hoàn thành project tổng hợp
 - [ ] Ghi chép những gì đã học
 - [ ] Lên kế hoạch tuần tiếp theo
 
+---
+
 ## 🎉 Kết quả mong đợi
 
 Sau 30 ngày, bạn sẽ có thể:
+
+### 🎨 Frontend Skills
 - ✅ Xây dựng website responsive hoàn chỉnh
 - ✅ Sử dụng HTML, CSS, JavaScript thành thạo
-- ✅ Tạo các hiệu ứng và animations
-- ✅ Tương tác với APIs
-- ✅ Deploy website lên hosting
-- ✅ Có portfolio projects để showcase
+- ✅ Tạo các hiệu ứng và animations đẹp mắt
+- ✅ Tương tác với APIs và external data
+- ✅ Deploy website lên hosting platforms
+
+### 💼 Portfolio Projects
+- ✅ Có 30+ mini projects để showcase
+- ✅ Portfolio website chuyên nghiệp
+- ✅ E-commerce landing page
+- ✅ Blog website với admin panel
+
+### 🚀 Career Ready
+- ✅ Hiểu rõ frontend development workflow
+- ✅ Có kinh nghiệm với modern tools
+- ✅ Sẵn sàng apply cho frontend jobs
+- ✅ Có thể học tiếp React/Vue/Angular
+
+---
 
 ## 📄 Giấy phép
 
 Dự án này được tạo ra cho mục đích học tập. Bạn có thể tự do sử dụng, chia sẻ và đóng góp cải tiến.
+
+---
 
 ## 🙏 Lời cảm ơn
 
@@ -355,6 +480,14 @@ Cảm ơn kênh [Nodemy](https://www.youtube.com/@nodemy) đã tạo ra series v
 
 ---
 
-**Chúc bạn học tập hiệu quả và thành công trên con đường trở thành Web Developer! 🚀**
+<div align="center">
 
-*Hãy nhớ: "Practice makes perfect" - Thực hành tạo nên sự hoàn hảo! 💪*
+**Chúc bạn học tập hiệu quả và thành công trên con đường trở thành Frontend Developer! 🚀**
+
+*"Practice makes perfect" - Thực hành tạo nên sự hoàn hảo! 💪*
+
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/your-username)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/your-profile)
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=about.me&logoColor=white)](https://your-portfolio.com)
+
+</div>
