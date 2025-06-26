@@ -88,7 +88,7 @@ Dự án này được thiết kế để giúp bạn từ một người mới 
 │   ├── 📁 js/
 │   │   └── main.js
 │   └── day5.html
-├── 📁 Day6/ 🔄
+├── 📁 Day6/ ✅
 ├── 📁 Day7/ ⏳
 ├── ...
 ├── 📁 Day30/ ⏳
@@ -157,7 +157,7 @@ Dự án này được thiết kế để giúp bạn từ một người mới 
 ### 🗓️ Tuần 2: JavaScript cơ bản
 | Ngày | Project | Trạng thái | Mô tả |
 |------|---------|------------|-------|
-| **Day 6** | 🔄 **Responsive Design** | Đang học | Website responsive |
+| **Day 6** | ✅ **Key Down Event** | Hoàn thành | Hiển thị thông tin phím vừa nhấn (key, location, which, code) với giao diện đẹp, cập nhật realtime khi nhấn phím |
 | **Day 7** | ⏳ **CSS Animations** | Chưa bắt đầu | Advanced CSS animations |
 | **Day 8** | ⏳ **Project Tổng hợp** | Chưa bắt đầu | Mini website hoàn chỉnh |
 | **Day 9** | ⏳ **JavaScript Basics** | Chưa bắt đầu | Variables, functions |
@@ -231,6 +231,16 @@ Dự án này được thiết kế để giúp bạn từ một người mới 
   - Click outside hoặc nhấn Escape để đóng
   - Hover effects cho button với scale animation
 - **Kỹ năng học được**: Advanced CSS animations, JavaScript event handling, UX design
+
+### ✅ Day 6: Key Down Event
+- **File**: `Day6/day6.html`
+- **Tính năng**:
+  - Giao diện hiện đại, responsive
+  - Khi chưa nhấn phím: hiện nút "Press any key"
+  - Khi nhấn phím bất kỳ: ẩn alert, hiện thông tin phím
+  - Hiển thị: ký tự phím (`key`), vị trí (`location`), mã phím (`which`), tên mã (`code`)
+  - Cập nhật realtime mỗi lần nhấn phím
+- **Kỹ năng học được**: JavaScript event handling, DOM manipulation, UI feedback
 
 ---
 
