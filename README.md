@@ -89,7 +89,7 @@ Dự án này được thiết kế để giúp bạn từ một người mới 
 │   │   └── main.js
 │   └── day5.html
 ├── 📁 Day6/ ✅
-├── 📁 Day7/ ⏳
+├── 📁 Day7/ ✅
 ├── ...
 ├── 📁 Day30/ ⏳
 ├── 📁 resources/
@@ -158,10 +158,10 @@ Dự án này được thiết kế để giúp bạn từ một người mới 
 | Ngày | Project | Trạng thái | Mô tả |
 |------|---------|------------|-------|
 | **Day 6** | ✅ **Key Down Event** | Hoàn thành | Hiển thị thông tin phím vừa nhấn (key, location, which, code) với giao diện đẹp, cập nhật realtime khi nhấn phím |
-| **Day 7** | ⏳ **CSS Animations** | Chưa bắt đầu | Advanced CSS animations |
-| **Day 8** | ⏳ **Project Tổng hợp** | Chưa bắt đầu | Mini website hoàn chỉnh |
-| **Day 9** | ⏳ **JavaScript Basics** | Chưa bắt đầu | Variables, functions |
-| **Day 10** | ⏳ **DOM Manipulation** | Chưa bắt đầu | Thao tác với DOM |
+| **Day 7** | ✅ **Search Tag** | Hoàn thành | Tạo và quản lý tags với giao diện đẹp, thêm/xóa tags, tránh duplicate, responsive design |
+| **Day 8** | ⏳ **CSS Animations** | Chưa bắt đầu | Advanced CSS animations |
+| **Day 9** | ⏳ **Project Tổng hợp** | Chưa bắt đầu | Mini website hoàn chỉnh |
+| **Day 10** | ⏳ **JavaScript Basics** | Chưa bắt đầu | Variables, functions |
 
 ### 🗓️ Tuần 3: JavaScript nâng cao
 | Ngày | Project | Trạng thái | Mô tả |
@@ -241,6 +241,18 @@ Dự án này được thiết kế để giúp bạn từ một người mới 
   - Hiển thị: ký tự phím (`key`), vị trí (`location`), mã phím (`which`), tên mã (`code`)
   - Cập nhật realtime mỗi lần nhấn phím
 - **Kỹ năng học được**: JavaScript event handling, DOM manipulation, UI feedback
+
+### ✅ Day 7: Search Tag
+- **File**: `Day7/day7.html`
+- **Tính năng**:
+  - Giao diện hiện đại với gradient background và card layout
+  - Thêm tag mới bằng cách gõ và nhấn Enter
+  - Xóa từng tag bằng cách click icon X
+  - Xóa tất cả tags bằng nút "Remove All"
+  - Tránh duplicate tags tự động
+  - Smooth animations và hover effects
+  - Responsive design cho mobile
+- **Kỹ năng học được**: JavaScript array manipulation, DOM manipulation, event handling, CSS animations, responsive design
 
 ---
 
