@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register / Login Form</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Register Form -->
+    <form id="registerForm" class="form active" autocomplete="off">
+      <h2>Register</h2>
+      <div class="form-group">
+        <input type="text" id="regEmail" placeholder="Email">
+        <small class="error"></small>
+      </div>
+      <div class="form-group">
+        <input type="password" id="regPassword" placeholder="Password">
+        <small class="error"></small>
+      </div>
+      <div class="form-group">
+        <input type="password" id="regConfirmPassword" placeholder="Confirm password">
+        <small class="error"></small>
+      </div>
+      <button type="submit" class="btn">Register</button>
+      <p class="switch">Already have an account? <a href="#" id="toLogin">Login</a></p>
+    </form>
+    <!-- Login Form -->
+    <form id="loginForm" class="form" autocomplete="off">
+      <h2>Login</h2>
+      <div class="form-group">
+        <input type="text" id="loginEmail" placeholder="Email">
+        <small class="error"></small>
+      </div>
+      <div class="form-group">
+        <input type="password" id="loginPassword" placeholder="Password">
+        <small class="error"></small>
+      </div>
+      <button type="submit" class="btn">Login</button>
+      <p class="switch">Not a member? <a href="#" id="toRegister">Signup</a></p>
+    </form>
+  </div>
+  <script src="./js/main.js"></script>
+</body>
+</html>
