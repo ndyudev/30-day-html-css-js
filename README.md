@@ -39,7 +39,7 @@ Dự án này được thiết kế để giúp bạn từ một người mới 
 | Tuần | Ngày | Trạng thái | Project |
 |------|------|------------|---------|
 | **Tuần 1** | Day 1-5 | ✅ **Hoàn thành** | 5/5 projects |
-| **Tuần 2** | Day 6-10 | 🔄 **Đang học** | 0/5 projects |
+| **Tuần 2** | Day 6-10 | 🔄 **Đang học** | 3/5 projects |
 | **Tuần 3** | Day 11-15 | ⏳ **Chưa bắt đầu** | 0/5 projects |
 | **Tuần 4** | Day 16-20 | ⏳ **Chưa bắt đầu** | 0/5 projects |
 | **Tuần 5** | Day 21-25 | ⏳ **Chưa bắt đầu** | 0/5 projects |
@@ -90,7 +90,28 @@ Dự án này được thiết kế để giúp bạn từ một người mới 
 │   └── day5.html
 ├── 📁 Day6/ ✅
 ├── 📁 Day7/ ✅
-├── ...
+├── 📁 Day8/ ✅
+├── 📁 Day9/ ⏳
+├── 📁 Day10/ ⏳
+├── 📁 Day11/ ⏳
+├── 📁 Day12/ ⏳
+├── 📁 Day13/ ⏳
+├── 📁 Day14/ ⏳
+├── 📁 Day15/ ⏳
+├── 📁 Day16/ ⏳
+├── 📁 Day17/ ⏳
+├── 📁 Day18/ ⏳
+├── 📁 Day19/ ⏳
+├── 📁 Day20/ ⏳
+├── 📁 Day21/ ⏳
+├── 📁 Day22/ ⏳
+├── 📁 Day23/ ⏳
+├── 📁 Day24/ ⏳
+├── 📁 Day25/ ⏳
+├── 📁 Day26/ ⏳
+├── 📁 Day27/ ⏳
+├── 📁 Day28/ ⏳
+├── 📁 Day29/ ⏳
 ├── 📁 Day30/ ⏳
 ├── 📁 resources/
 │   ├── 📁 cheatsheets/
@@ -159,7 +180,7 @@ Dự án này được thiết kế để giúp bạn từ một người mới 
 |------|---------|------------|-------|
 | **Day 6** | ✅ **Key Down Event** | Hoàn thành | Hiển thị thông tin phím vừa nhấn (key, location, which, code) với giao diện đẹp, cập nhật realtime khi nhấn phím |
 | **Day 7** | ✅ **Search Tag** | Hoàn thành | Tạo và quản lý tags với giao diện đẹp, thêm/xóa tags, tránh duplicate, responsive design |
-| **Day 8** | ⏳ **CSS Animations** | Chưa bắt đầu | Advanced CSS animations |
+| **Day 8** | ✅ **Register & Login Form** | Hoàn thành | Form đăng ký/đăng nhập hiện đại, validate JS, chuyển đổi mượt mà, responsive, UI/UX đẹp |
 | **Day 9** | ⏳ **Project Tổng hợp** | Chưa bắt đầu | Mini website hoàn chỉnh |
 | **Day 10** | ⏳ **JavaScript Basics** | Chưa bắt đầu | Variables, functions |
 
@@ -253,6 +274,25 @@ Dự án này được thiết kế để giúp bạn từ một người mới 
   - Smooth animations và hover effects
   - Responsive design cho mobile
 - **Kỹ năng học được**: JavaScript array manipulation, DOM manipulation, event handling, CSS animations, responsive design
+
+### ✅ Day 8: Register & Login Form
+- **File**: `Day8/day8.html`, `style.css`, `main.js`
+- **Tính năng**:
+  - Giao diện form đăng ký/đăng nhập hiện đại, bo góc lớn, bóng đổ nhẹ, spacing hợp lý
+  - Nền gradient tím-hồng (`#a18cd1` → `#fbc2eb`)
+  - Chuyển đổi mượt mà giữa form Đăng ký và Đăng nhập
+  - Validate email, password, confirm password (đúng định dạng, không để trống, password >= 6 ký tự, xác nhận trùng khớp)
+  - Hiển thị lỗi rõ ràng, UX thân thiện
+  - Nút gradient nổi bật, hover đổi màu, bo tròn lớn
+  - Responsive trên mobile, input và button luôn căn đều, không bị tràn
+  - Chữ "Login"/"Signup" nổi bật, hover đổi màu
+- **Kỹ năng học được**: JavaScript form validation, DOM manipulation, event handling, CSS gradient, responsive UI, UX best practices
+- **Hướng dẫn sử dụng**:
+  1. Mở `day8.html` trên trình duyệt
+  2. Nhập email, password, confirm password để đăng ký
+  3. Chuyển sang Login bằng link "Already have an account? Login"
+  4. Validate sẽ báo lỗi nếu nhập sai hoặc thiếu
+  5. Giao diện đẹp, dễ dùng trên cả desktop và mobile
 
 ---
 
