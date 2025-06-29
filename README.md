@@ -39,7 +39,7 @@ Dự án này được thiết kế để giúp bạn từ một người mới 
 | Tuần | Ngày | Trạng thái | Project |
 |------|------|------------|---------|
 | **Tuần 1** | Day 1-5 | ✅ **Hoàn thành** | 5/5 projects |
-| **Tuần 2** | Day 6-10 | 🔄 **Đang học** | 3/5 projects |
+| **Tuần 2** | Day 6-10 | 🔄 **Đang học** | 4/5 projects |
 | **Tuần 3** | Day 11-15 | ⏳ **Chưa bắt đầu** | 0/5 projects |
 | **Tuần 4** | Day 16-20 | ⏳ **Chưa bắt đầu** | 0/5 projects |
 | **Tuần 5** | Day 21-25 | ⏳ **Chưa bắt đầu** | 0/5 projects |
@@ -91,7 +91,7 @@ Dự án này được thiết kế để giúp bạn từ một người mới 
 ├── 📁 Day6/ ✅
 ├── 📁 Day7/ ✅
 ├── 📁 Day8/ ✅
-├── 📁 Day9/ ⏳
+├── 📁 Day9/ ✅
 ├── 📁 Day10/ ⏳
 ├── 📁 Day11/ ⏳
 ├── 📁 Day12/ ⏳
@@ -181,7 +181,7 @@ Dự án này được thiết kế để giúp bạn từ một người mới 
 | **Day 6** | ✅ **Key Down Event** | Hoàn thành | Hiển thị thông tin phím vừa nhấn (key, location, which, code) với giao diện đẹp, cập nhật realtime khi nhấn phím |
 | **Day 7** | ✅ **Search Tag** | Hoàn thành | Tạo và quản lý tags với giao diện đẹp, thêm/xóa tags, tránh duplicate, responsive design |
 | **Day 8** | ✅ **Register & Login Form** | Hoàn thành | Form đăng ký/đăng nhập hiện đại, validate JS, chuyển đổi mượt mà, responsive, UI/UX đẹp |
-| **Day 9** | ⏳ **Project Tổng hợp** | Chưa bắt đầu | Mini website hoàn chỉnh |
+| **Day 9** | ✅ **Weather App (API + 4 mùa)** | Hoàn thành | App thời tiết sử dụng Open-Meteo API, đổi background theo mùa (xuân, hạ, thu, đông), có nút test chuyển mùa trực tiếp |
 | **Day 10** | ⏳ **JavaScript Basics** | Chưa bắt đầu | Variables, functions |
 
 ### 🗓️ Tuần 3: JavaScript nâng cao
@@ -293,6 +293,18 @@ Dự án này được thiết kế để giúp bạn từ một người mới 
   3. Chuyển sang Login bằng link "Already have an account? Login"
   4. Validate sẽ báo lỗi nếu nhập sai hoặc thiếu
   5. Giao diện đẹp, dễ dùng trên cả desktop và mobile
+
+### 📦 Day 9: Weather App (API + 4 mùa)
+- Sử dụng [Open-Meteo API](https://open-meteo.com/) miễn phí, không cần API key
+- Tìm kiếm thời tiết theo tên thành phố toàn cầu
+- Hiển thị: nhiệt độ, mô tả thời tiết, độ ẩm, gió
+- **Background tự động đổi theo mùa** (xuân, hạ, thu, đông)
+- **Có 4 nút test mùa**: bấm để xem ngay hiệu ứng chuyển ảnh nền
+- Ảnh mùa: `assets/img/hot.png`, `warm.jpg`, `cool.jpg`, `cold.png`
+- Responsive đẹp trên mọi thiết bị
+
+**Cách test 4 mùa:**
+- Mở Day9/index.html, bấm các nút Xuân/Hạ/Thu/Đông ở góc trái dưới để xem ảnh nền từng mùa
 
 ---
 
