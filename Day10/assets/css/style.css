@@ -1,0 +1,133 @@
+/* Reset CSS */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #f8ffae 0%, #43c6ac 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.todo-container {
+    background: rgba(255,255,255,0.95);
+    padding: 32px 28px 24px 28px;
+    border-radius: 18px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.12);
+    min-width: 340px;
+    max-width: 400px;
+    width: 100%;
+}
+
+.todo-container h1 {
+    text-align: center;
+    margin-bottom: 18px;
+    color: #43c6ac;
+    font-size: 2rem;
+    letter-spacing: 1px;
+}
+
+.todo-input {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 18px;
+}
+
+#todo-input {
+    flex: 1;
+    padding: 10px 14px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 1rem;
+    outline: none;
+    transition: border 0.2s;
+}
+#todo-input:focus {
+    border: 1.5px solid #43c6ac;
+}
+
+#add-btn {
+    padding: 10px 18px;
+    background: #43c6ac;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+#add-btn:hover {
+    background: #2e8b7a;
+}
+
+#todo-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.todo-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #f6f6f6;
+    border-radius: 8px;
+    padding: 10px 14px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 8px rgba(67,198,172,0.06);
+    transition: background 0.2s;
+}
+.todo-item.completed {
+    background: #e0f7ef;
+    text-decoration: line-through;
+    color: #aaa;
+}
+
+.todo-text {
+    flex: 1;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.todo-action {
+    display: flex;
+    gap: 10px;
+}
+
+.delete-btn {
+    background: none;
+    border: none;
+    color: #e57373;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+.delete-btn:hover {
+    color: #b71c1c;
+}
+
+@media (max-width: 500px) {
+    .todo-container {
+        min-width: 90vw;
+        padding: 18px 8px 14px 8px;
+    }
+    .todo-container h1 {
+        font-size: 1.3rem;
+    }
+    #add-btn {
+        padding: 8px 10px;
+        font-size: 0.95rem;
+    }
+    .todo-item {
+        font-size: 0.95rem;
+        padding: 8px 8px;
+    }
+}

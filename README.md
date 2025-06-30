@@ -92,7 +92,7 @@ Dự án này được thiết kế để giúp bạn từ một người mới 
 ├── 📁 Day7/ ✅
 ├── 📁 Day8/ ✅
 ├── 📁 Day9/ ✅
-├── 📁 Day10/ ⏳
+├── 📁 Day10/ ✅
 ├── 📁 Day11/ ⏳
 ├── 📁 Day12/ ⏳
 ├── 📁 Day13/ ⏳
@@ -182,7 +182,7 @@ Dự án này được thiết kế để giúp bạn từ một người mới 
 | **Day 7** | ✅ **Search Tag** | Hoàn thành | Tạo và quản lý tags với giao diện đẹp, thêm/xóa tags, tránh duplicate, responsive design |
 | **Day 8** | ✅ **Register & Login Form** | Hoàn thành | Form đăng ký/đăng nhập hiện đại, validate JS, chuyển đổi mượt mà, responsive, UI/UX đẹp |
 | **Day 9** | ✅ **Weather App (API + 4 mùa)** | Hoàn thành | App thời tiết sử dụng Open-Meteo API, đổi background theo mùa (xuân, hạ, thu, đông), có nút test chuyển mùa trực tiếp |
-| **Day 10** | ⏳ **JavaScript Basics** | Chưa bắt đầu | Variables, functions |
+| **Day 10** | ✅ **To Do List** | Hoàn thành | Ứng dụng quản lý công việc: thêm, xóa, hoàn thành, lưu LocalStorage, responsive, giao diện đẹp |
 
 ### 🗓️ Tuần 3: JavaScript nâng cao
 | Ngày | Project | Trạng thái | Mô tả |
@@ -305,6 +305,19 @@ Dự án này được thiết kế để giúp bạn từ một người mới 
 
 **Cách test 4 mùa:**
 - Mở Day9/index.html, bấm các nút Xuân/Hạ/Thu/Đông ở góc trái dưới để xem ảnh nền từng mùa
+
+### 📦 Day 10: To Do List
+- Thêm/xóa/đánh dấu hoàn thành công việc
+- Lưu danh sách vào LocalStorage (không mất khi reload)
+- Giao diện hiện đại, responsive
+- Sử dụng HTML, CSS, JavaScript thuần
+- Tập trung vào thao tác DOM, sự kiện, lưu trữ trình duyệt
+
+**Cách sử dụng:**
+- Mở Day10/day10.html
+- Nhập công việc, nhấn "Thêm" hoặc Enter để thêm
+- Click vào công việc để đánh dấu hoàn thành
+- Nhấn icon ��️ để xóa công việc
 
 ---
 
